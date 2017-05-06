@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset-"utf-8">
+<title>Jacob's Temperature Calculator</title>
+<style type="text/css">
+body {
+		background: white;
+		color: green;
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: large;
+		padding: 10px;
+}
+h1 {
+		font-size: 24pt;
+		font-style: normal;
+		font-weight: bolder;
+		font-variant: small-caps;
+}
+</style>
+</head>
+
+<body>
+<h1>Jacob's Temperature Calculator</h1>
+<input type="button" onclick="location.href='index.html';" value="Return to the Home Page" />
+<input type="button" onclick="location.href='weight.html';" value="Go to the Weight Calculator" />
+<input type="button" onclick="location.href='reg.html';" value="Go to the Regular Calculator" />
+<p>Please enter a valid temperature in Fahrenheit below:</p>
+
+<form name="temperature" method="get" action="temp.php">
+
+<p>Temperature:
+<input type="text" name="temp" size="30" required
+		placeholder="Enter temperature in Fahrenheit" pattern="^\d+(\.\d*)?$">
+</p>
+
+
+<input type="submit" value="Submit">
+
+</form>
+</body>
+</html>
